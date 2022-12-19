@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+/* div {
+  display: block; 
+  border: 1px red solid;
+} */
+
+p {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.brand-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Montserrat; sans-serif;
+  font-size: 33px;
+  line-height: 36px;
+  font-weight: 400px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin: 80px auto 20px auto;
+  min-width: 1050px;
+  border: 2px solid black;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin: 80px auto 20px auto;
+  min-width: 1050px;
+  border: 2px solid black;
+}
+
+.row {
+  padding: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid red;
+}
+
+.article {
+  margin-left: 20px;
+  max-width: 450px;
+  min-width: 200px;
+}
+
+.home-icon {
+  align-self: flex-start;
+  border: 1px dotted red;
+}
+
+.hamburger-button {
+  align-self: flex-end;
+}
+
+.section {
+
+  align-content: stretch;
+  border: 2px solid purple;
+}
+
+.filler-space {
+  width: 25%;
+  border: 1px solid pink;
+}
+
+.about-photo {
+  width: 470px;
+}
+
+.column {
+  border: 2px solid blue;
+}
+
+.hamburger-button {
+  border: 1px solid gold;
+}
+
+.content {
+  display: none;
+}
+
+.banner {
+  border: 3px solid green;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 1050px;
+}
+
