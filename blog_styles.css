@@ -31,15 +31,21 @@ p {
 }
 
 .home-font {
+  font-family: Montserrat, sans-serif;
   font-size: 33px;
-  font: sans-serif;
+  /* font: sans-serif; */
   font-weight: 400;
 }
 
 .navbar {
   width: 100%;
+  font-family: Montserrat, sans-serif;  
   /* margin-top: 2em; */
   text-align: right;
+}
+
+a {
+  text-decoration: none;
 }
 
 .navlink {
@@ -85,8 +91,21 @@ p {
   line-height: 30px;
 }
 
+.blog-date {
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  color: silver;
+  text-transform: uppercase;
+  font-weight: 400px;
+}
+
 .column-pg {
   width: 66.6666%;
   margin-top: 0px;
 }
 
+p {
+  font-family: arial, sans-serif;
+  line-height: 20px;
+  color: #484848;
+}

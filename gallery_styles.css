@@ -22,14 +22,19 @@
 
 .home-font {
   font-size: 33px;
-  font: sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 400;
 }
 
 .navbar {
   width: 100%;
+  font-family: Montserrat, sans-serif;
   /* margin-top: 2em; */
   text-align: right;
+}
+
+a {
+  text-decoration: none;
 }
 
 .navlink {
@@ -66,10 +71,11 @@
 }
 
 p {
-  font: sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 12px;
   margin-top: 13px;
   text-transform: uppercase;
   color: #333;
   letter-spacing: 1px;
 }
+
