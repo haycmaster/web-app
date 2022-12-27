@@ -1,0 +1,57 @@
+.section {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	margin-top: 80px;
+	width: 920px;
+	display: flex;
+	justify-content: center;
+}
+
+.display-box {
+	width: 45%;
+	height: 460px;
+	background-color: lightgray;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.moving-box {
+	height: 50px;
+	width: 50px;
+	background-color: turquoise;
+	display: flex;
+}
+
+.button-box {
+	margin-left: 15%;
+	align-self: center;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	width: 40%;
+	height: 300px;
+}
+
+.button-row {
+	height: 30px;
+	display: flex;
+
+	justify-content: space-between;
+}
+
+.center-row {
+	justify-content: center;
+}
+
+.input-button {
+	width: 100px;
+	height: 30px;
+	border: 0px;
+	border-radius: 8px;
+	border-color: lightgray;
+}
