@@ -1,0 +1,62 @@
+.section {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	margin-top: 80px;
+	width: 1200px;
+	display: flex;
+}
+
+.display-box {
+	display: inline-block;
+	width: 600px;
+	height: 600px;
+	background-color: lightgray;
+	border: 3px solid gray;
+}
+
+.moving-box {
+	height: 50px;
+	width: 50px;
+	background-color: #DB4A4A;
+}
+
+#movingDiv {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.button-box {
+	margin-left:30px;
+	align-self: center;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	width: 35%;
+	height: 300px;
+}
+
+.button-row {
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-row-top {
+	justify-content: center;
+}
+
+.btn-row-bot {
+	justify-content: center;
+}
+
+.input-button {
+	width: 100px;
+	height: 100px;
+	border: 0px;
+	border-radius: 8px;
+	border-color: lightgray;
+	background-color: gray;
+}
