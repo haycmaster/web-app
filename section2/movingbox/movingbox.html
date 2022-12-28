@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+	<title>Button Exercise</title>
+	<link rel="stylesheet" href="./movingbox_styles.css" />
+	<script type="text/javascript" src="./movingbox_script.js"></script>
+</head>
+
+<body>
+	<div class="section">
+		<div class="container">
+			<div class="display-box" id="displayBox">
+				<div class="moving-box" id="movingDiv"></div>
+			</div>
+
+			<div class="button-box">
+				<div class="button-row">
+					<button onclick="moveTopLeft()" class="input-button" id="topLBtn">
+						Top Left
+					</button>
+					<button onclick="moveTopRight()" class="input-button" id="topRBtn">
+						Top Right
+					</button>
+				</div>
+				<div class="button-row center-row">
+					<button onclick="moveCenter()" class="input-button" id="centerBtn">
+						Center
+					</button>
+				</div>
+				<div class="button-row">
+					<button onclick="moveBottomLeft()" class="input-button" id="botLBtn">
+						Bottom Left
+					</button>
+					<button onclick="moveBottomRight()" class="input-button" id="botRBtn">
+						Bottom Right
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
