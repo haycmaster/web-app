@@ -20,7 +20,7 @@
 .moving-box {
 	height: 50px;
 	width: 50px;
-	background-color: #DB4A4A;
+	background-color: #db4a4a;
 }
 
 #movingDiv {
@@ -29,7 +29,7 @@
 }
 
 .button-box {
-	margin-left:30px;
+	margin-left: 30px;
 	align-self: center;
 	display: flex;
 	flex-flow: column;

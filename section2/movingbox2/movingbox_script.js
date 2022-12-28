@@ -3,7 +3,7 @@ let margLeft = 0;
 
 initLog();
 
-function initLog () {
+function initLog() {
 	console.log("margTop is :" + margTop);
 	console.log("margLeft is :" + margLeft);
 }
@@ -19,28 +19,28 @@ function moveReset() {
 
 function moveUp() {
 	const element = document.getElementById("movingDiv");
-	if (margTop !=0) {
+	if (margTop != 0) {
 		margTop -= 50;
 		element.style.marginTop = margTop + "px";
-		console.log ("The box moved up.");
+		console.log("The box moved up.");
 	}
 }
 
 function moveDown() {
 	const element = document.getElementById("movingDiv");
-	if (margTop !=550) {
+	if (margTop != 550) {
 		margTop += 50;
 		element.style.marginTop = margTop + "px";
-		console.log ("The box moved down.");
+		console.log("The box moved down.");
 	}
 }
 
 function moveLeft() {
 	const element = document.getElementById("movingDiv");
-	if (margLeft !=0) {
+	if (margLeft != 0) {
 		margLeft -= 50;
 		element.style.marginLeft = margLeft + "px";
-		console.log ("The box moved left.");
+		console.log("The box moved left.");
 	}
 }
 
@@ -49,6 +49,6 @@ function moveRight() {
 	if (margLeft != 550) {
 		margLeft += 50;
 		element.style.marginLeft = margLeft + "px";
-		console.log ("The box moved down.");
+		console.log("The box moved down.");
 	}
 }
