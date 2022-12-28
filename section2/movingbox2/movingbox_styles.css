@@ -18,6 +18,7 @@
 }
 
 .moving-box {
+	position: relative;
 	height: 50px;
 	width: 50px;
 	background-color: #DB4A4A;
@@ -52,7 +53,16 @@
 	justify-content: center;
 }
 
-.input-button {
+/* .input-button {
+	width: 100px;
+	height: 100px;
+	border: 0px;
+	border-radius: 8px;
+	border-color: lightgray;
+	background-color: gray;
+} */
+
+.button-box button {
 	width: 100px;
 	height: 100px;
 	border: 0px;
