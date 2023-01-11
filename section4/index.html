@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+  <title>Modal</title>
+  <link rel="stylesheet" href="./modal-style.css">
+  <script type="text/javascript" src="./modal_script.js"></script>
+</head>
+
+<body onload="doOnload()">
+  <div class="container">
+    <button id="openModalBtn" class="open-modal-button">Open Modal</button>
+  </div>
+
+  <div id="modalWindow" class="modal-bg">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div class="modal-title">
+          <h5>Modal Window</h5>
+        </div>
+        <button id="closeButtonManual" class="close-button">X</button>
+      </div>
+      <br>
+      <div class="modal-body">
+        <p>This is the modal window text.</p>
+      </div>
+      <br>
+      <div class="modal-footer">
+        <button id="modalWindowBtn" class="inputBtn">Save</button>
+        <button id="closeButton" class="inputBtn">Close</button>
+      </div>
+    </div>
+  </div>
+</body>
