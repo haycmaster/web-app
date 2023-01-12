@@ -6,29 +6,42 @@ function doOnload() {
   document.getElementById("openModalBtn").addEventListener("click", turnOnVisibility);
   document.getElementById("closeButtonManual").addEventListener("click", turnOffVisibility);
   document.getElementById("closeButton").addEventListener("click", turnOffVisibility);
-  document.getElementById("modalWindowBtn").addEventListener("click", modalWindowFunction);
+  const saveBtn = document.getElementById("modalWindowBtn");
+  saveBtn.addEventListener("click", (event) => saveBtnClicked(event));
 }
 
 function turnOnVisibility() {
-  console.log("The button was pressed.");
+  // console.log("The button was pressed.");
   visibility = modalBox.style.display;
   if (visibility = "none") {
     visibility = "flex";
     modalBox.style.display = visibility;
-    console.log("The modal window function activated.")
+    // console.log("The modal window function activated.")
   }
 }
 
 function turnOffVisibility() {
-  console.log("The exit button was pressed.")
+  // console.log("The exit button was pressed.")
   if (visibility = "flex") {
     visibility = "none";
     modalBox.style.display = visibility;
-    console.log("End of exit function.");
+    // console.log("End of exit function.");
   }
 }
 
-function modalWindowFunction() {
-  alert("You pressed the 'Save' button! The modal will now close.");
-  turnOffVisibility();
+function garyBackGroundDivClicked() {
+  console.log('In garyBackGroundDivClicked 555')
+  turnOffVisibility()
+}
+
+
+function saveBtnParentDivClicked(evt) {
+  console.log('In saveBtnParentDivClicked 111')
+  evt.stopPropagation();
+}
+
+function saveBtnClicked(evt) {
+  console.log("'Save' button clicked. 000");
+  evt.stopPropagation();
+  // turnOffVisibility();
 }

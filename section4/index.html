@@ -10,8 +10,8 @@
     <button id="openModalBtn" class="open-modal-button">Open Modal</button>
   </div>
 
-  <div id="modalWindow" class="modal-bg">
-    <div class="modal-container">
+  <div id="modalWindow" class="modal-bg" onclick="garyBackGroundDivClicked()">
+    <div class="modal-container" onclick="saveBtnParentDivClicked(event)">
       <div class="modal-header">
         <div class="modal-title">
           <h5>Modal Window</h5>
@@ -23,7 +23,7 @@
         <p>This is the modal window text.</p>
       </div>
       <br>
-      <div class="modal-footer">
+      <div class="modal-footer" >
         <button id="modalWindowBtn" class="inputBtn">Save</button>
         <button id="closeButton" class="inputBtn">Close</button>
       </div>
